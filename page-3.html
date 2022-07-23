@@ -7,57 +7,62 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
-.mySlides {display: none}
-</style>
 
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('imgs/pro.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
 <body>
 
 	<!-- Navbar -->
 	<div class="w3-top">
 	  <div class="w3-bar w3-black w3-card-2">
 	    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">REMIX TEXTURAS_</a>
 	    <small>
-				  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTRO</a>
-	    <a href="page-2.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIDEOS</a>
+	        <a href="page-1.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTRO</a>
+	    <a href="page-2.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VÍDEOS</a>
 	    <a href="page-3.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">REFERÊNCIAS</a>
 	    </small>
-	   <a href="#contact" class="w3-padding-large w3-hover-red w3-hide-small w3-right">ENG</a>
+	    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"> PT </a> <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"> ENG </a>
 
 	  </div>
 	</div>
 
 	<!-- Navbar on small screens -->
 	<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-			<a href="index.html" class="w3-bar-item w3-button w3-padding-large">INTRO</a>
-	  <a href="page-2.html" class="w3-bar-item w3-button w3-padding-large">VIDEOS</a>
+	  <small>
+	      <a href="page-1.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTRO</a>
+	  <a href="page-2.html" class="w3-bar-item w3-button w3-padding-large">VÍDEOS</a>
 	  <a href="page-3.html" class="w3-bar-item w3-button w3-padding-large">REFERÊNCIAS</a>
-	  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">ENG</a>
-</div>
+	  </small>
+	  <a href="page-pt.html" class="w3-bar-item w3-button w3-padding-large">PT</a>
+	  <a href="page-eng.html" class="w3-bar-item w3-button w3-padding-large">ENG</a>
+
 	</div>
 
-
 	<!-- Page content -->
-	<div class="w3-content" style="max-width:2000px;margin-top:46px">
 
+	<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 
-		<!-- Automatic Slideshow Images -->
-		</div>
-		<div class="mySlides w3-display-container w3-center">
-			<img src="imgs/pro-1.png" style="width:100%">
+	  <div class="w3-display-middle">
+	    <h1 class="w3-jumbo w3-animate-top">DOSSIE</h1>
+	    <hr class="w3-border-grey" style="margin:auto;width:40%">
 
-			</div>
-		</div>
-		<div class="mySlides w3-display-container w3-center">
-			<img src="imgs/pro-2.png" style="width:100%">
+	  </div>
 
-			</div>
-			</div>
-
-
+	</div>
 
     <!-- INTRO -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+
+			<h2>DOSSIE:​ ​ Por​ ​ uma​ ​ cartografia​ ​ crítica​ ​ da​ ​ Amazônia</h2>
+	<i>RECORTE/PROCESSO​ ​ SOBRE​ ​ ARTE,​ ​ POLÍTICA​ ​ E ​ ​ TECNOLOGIAS​ ​ POSSÍVEIS</i>
       <h2 class="w3-wide">
 no teu norte está teu rosto<br>
 no teu centro, teu umbigo<br>
@@ -65,6 +70,9 @@ no teu sul, todo meu gosto
 </h2>
       <p class="w3-opacity"><i>Bye Bye Brasil, de Carlos Diegues</i></p>
 			<hr class="w3-border-grey" style="margin:auto;width:40%">
+
+			<p class="w3-justify">
+				O dossiê apresenta questões políticas, debates e ações em um território historicamente complexo - a Amazônia brasileira. Esta documentação é o resultado de um processo que reuniu uma rede de pensadores locais, ativistas, artistas e organizações para discutir arte, tecnologias e políticas que ligam geopolítica e território. A série consistiu em uma publicação impressa e versão digital, vídeos remixados e, um mapa MapAzônia, uma timeline sobre os 60 anos do plano de desenvolvimento para a Amazônia.</p>
 
 			  <p class="w3-justify">
 					Esta é uma pequena parte do processo de trabalho que resultou num mapeamento interessado em reconhecer uma realidade local e espacial, compartilhando visões e perspectivas globais, a partir das tecnologias móveis, digitais e principalmente as tecnologias possíveis.</p>
@@ -88,18 +96,72 @@ no teu sul, todo meu gosto
 
 <!-- End Page Content -->
 
+<!-- Dossie Section -->
+		<div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+
+			<div class="w3-third w3-margin-bottom">
+				<img src="imgs/1.jpg" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+
+				</div>
+			</div>
+			<div class="w3-third w3-margin-bottom">
+				<img src="imgs/2.jpg" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+
+				</div>
+			</div>
+			<div class="w3-third w3-margin-bottom">
+				<img src="imgs/3.jpg" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+
+		<div class="w3-third w3-margin-bottom">
+			<img src="imgs/4.jpg" style="width:100%" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+
+			</div>
+		</div>
+		<div class="w3-third w3-margin-bottom">
+			<img src="imgs/5.jpg" style="width:100%" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+
+			</div>
+		</div>
+		<div class="w3-third w3-margin-bottom">
+			<img src="imgs/6.jpg" style="width:100%" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- Image -->
+
+	<div class="w3-display-container w3-center">
+		<img src="imgs/mapazonia.jpg" style="width:100%">
+		<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+		</div>
+	</div>
+
+<!-- End Page Content -->
+
 
 <!-- Footer -->
 
 <footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
 	<div class="w3-container w3-content w3-padding-32" style="max-width:800px">
-		<code> REMIXTEXTURAS
+		<code> REMIX TEXTURAS
 			<br>video remix para pequenas telas
 			<br>Grão Pará, Brazil - 2017
 		</code>
-  <p class="w3-medium">
-    Concepção: Giseli Vasconcelos, Mateus Moura e Qualquer Quoletivo | Pesquisa e escrituras: Giseli Vasconcelos e Mateus Moura | Montagem dos vídeos: Mateus Moura | Design dos vídeos: Lucas Gouvea | Tradução legendas: Raphi Sofer | Web @G I S E L I + <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> + <a href="https://amara.org/en/"target="blank">amara.org</a>
-	</p>
+
 
 </div>
 </footer>
